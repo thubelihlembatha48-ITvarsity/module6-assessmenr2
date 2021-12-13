@@ -1,0 +1,288 @@
+.logo
+    {
+      position: absolute;
+      top: 29px;
+      left: 8px;
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+
+   
+/* ********************************** */
+/*menu                                */
+/* ********************************** */
+
+#menu{
+  background-color: #883b65;
+  height: 100px;
+}
+
+#menu ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+#menu li{
+  display: inline-block;
+}
+
+#menu a{
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 100px;
+  color: #affdbc;
+
+  padding: 0 40px;
+  border: none;
+  display: block;
+}
+
+#menu a:hover{
+background-color: #705764;
+}
+
+
+  /* Dropdown Button */
+.dropbtn {
+  background-color: #883b65;
+  color:#affdbc;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #aa8686;
+  min-width: 192px;
+  min-height: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+a .dropdown-content{
+  color: black;
+  padding: 5px 5px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* ********************************** */
+/*Contact                             */
+/* ********************************** */
+
+  #contact-page{
+    min-height: 200px;
+    background-color: rgb(204, 198, 207);
+    float: left;
+    width: 70%;
+  }
+
+p1{
+  color: rgba(4, 155, 109, 0.842);
+  font-family: fantasy;
+  font-size: 15px;
+  font-weight: normal;
+  margin-left: 15px;
+  padding-top: 10px;
+}
+
+p2{
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+h2{
+  color:#4E7A6E ;
+  margin-left: 13px;
+  text-align: left;
+  font-weight: 400;
+} 
+
+/* ********************************** */
+/*form                                */
+/* ********************************** */
+
+input{
+  width: 100%;
+  height: 25px;
+  margin : 12px 0;
+  border : 1px solid #929292;
+}
+
+#form{
+background: rgba(168, 172, 123, 0.8);
+width: 90%;
+display: block;
+margin: auto;
+margin-top: 50px;
+padding: 10px;
+border-radius: 10px; 
+}  
+
+textarea{
+  width: 100%;
+  height :25px;
+  margin : 12px 0;
+  border : 1px solid #929292;
+}
+
+.button{
+  display : block;
+  background-color: darkmagenta;
+  text-decoration : none;
+  text-align  : center;
+  color       : white;
+  font-size   : 16px;
+  font-weight : 600;
+  margin : 12px 0;
+  padding : 8px 0;
+}
+
+p3{
+  margin-left: 10px;
+  margin-top: 10px;
+  color: lightcoral;
+  font-size: 35px;
+}
+p4{
+  margin-left: auto;
+  color: rgb(141, 154, 170);
+  font-size: 35px;
+}
+
+/* ********************************** */
+/*page                                */
+/* ********************************** */
+#about{
+  min-height: 200px;
+  padding: 20px;
+  float: left;
+  width: 70%;
+}
+
+pi{
+  width: 290px;
+  height: 150px;
+  display: inline-block;
+  border: 2px solid;
+  border-radius: 10px;
+  background-color: rgb(131, 173, 173);
+}
+
+h1{
+  color: #883b65;
+}
+
+/*SIDEBAR*/
+
+#sidebar{
+  float: right;
+  width: 25%;
+}
+
+/*LISTS*/
+
+ul.styled{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul.styled li{
+  padding: 14px 0px;
+}
+
+ul.styled li a{
+  border-top: solid 1px #e5e5e5;
+  padding: 14px 0px;
+  color: peru;
+  text-decoration: none;
+}
+
+#car-list{
+  -moz-transition: -moz-transform 0.8s ease-in;
+	-webkit-transition: -webkit-transform 0.8s ease-in;
+	-o-transition: -o-transform 0.8s ease-in;
+}
+
+#car-list img:hover{
+  -moz-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	-o-transform: scale(1.5);
+}
+
+/* ********************************** */
+/*Footer                              */
+/* ********************************** */
+
+.footer{
+  width: 100%;
+  height: 285px;
+   background-color: #705764;
+   padding-top: 25px;
+   padding-left: 22px;
+   clear: both;
+}
+
+.footer h2{
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.footer p{
+  color:  #affdbc;
+}
+
+.footer a{
+  color: #affdbc;
+}
+
+#social-icons{
+  float: left;
+  width: 30%;
+  padding-right: 30px;
+}
+
+#featured-cars{
+  float: left;
+  width: 30%;
+  padding-right: 30px;
+}
+
+#copyright{
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  background-color: red;
+  padding-top: 50px;
+  clear: both;
+}
+
+#copyright p{
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
